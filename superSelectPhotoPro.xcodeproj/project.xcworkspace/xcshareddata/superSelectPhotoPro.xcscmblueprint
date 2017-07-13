@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1EB5915B5498C9E47FBBB23FDE7114969EA6CA8C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3984A81AFDD1032D523FA76BE065B556D4B14089" : 9223372036854775807,
+    "1EB5915B5498C9E47FBBB23FDE7114969EA6CA8C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "428E7528-9BCF-419D-B928-52F0FF019F6C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3984A81AFDD1032D523FA76BE065B556D4B14089" : "",
+    "1EB5915B5498C9E47FBBB23FDE7114969EA6CA8C" : "superSelectPhotoPro\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "superSelectPhotoPro",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "superSelectPhotoPro.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:superLeePhoto",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1EB5915B5498C9E47FBBB23FDE7114969EA6CA8C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pickAsuper\/superSelectPhotoPro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3984A81AFDD1032D523FA76BE065B556D4B14089"
+    }
+  ]
+}
