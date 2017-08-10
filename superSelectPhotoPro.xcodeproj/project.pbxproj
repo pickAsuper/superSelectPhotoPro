@@ -11,6 +11,11 @@
 		84812FF11F15B386009BCE5F /* LCPhotoCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84812FE61F15B386009BCE5F /* LCPhotoCollectionViewFlowLayout.m */; };
 		84812FF21F15B386009BCE5F /* LCPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84812FE81F15B386009BCE5F /* LCPhotoPickerViewController.m */; };
 		84812FF31F15B386009BCE5F /* LCTakePhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84812FEA1F15B386009BCE5F /* LCTakePhotoCell.m */; };
+		8497B5A31F3BFF12004E5005 /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497B59B1F3BFF12004E5005 /* loading@2x.png */; };
+		8497B5A41F3BFF12004E5005 /* pull_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8497B59C1F3BFF12004E5005 /* pull_refresh@2x.png */; };
+		8497B5A51F3BFF12004E5005 /* UIScrollView+XYRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497B59E1F3BFF12004E5005 /* UIScrollView+XYRefreshView.m */; };
+		8497B5A61F3BFF12004E5005 /* XYPullRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497B5A01F3BFF12004E5005 /* XYPullRefreshView.m */; };
+		8497B5A71F3BFF12004E5005 /* XYPushRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497B5A21F3BFF12004E5005 /* XYPushRefreshView.m */; };
 		84D0F9EE1F09D53E0035FF10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0F9ED1F09D53E0035FF10 /* main.m */; };
 		84D0F9F11F09D53E0035FF10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0F9F01F09D53E0035FF10 /* AppDelegate.m */; };
 		84D0F9F41F09D53E0035FF10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0F9F31F09D53E0035FF10 /* ViewController.m */; };
@@ -52,6 +57,14 @@
 		84812FE81F15B386009BCE5F /* LCPhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPhotoPickerViewController.m; sourceTree = "<group>"; };
 		84812FE91F15B386009BCE5F /* LCTakePhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTakePhotoCell.h; sourceTree = "<group>"; };
 		84812FEA1F15B386009BCE5F /* LCTakePhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTakePhotoCell.m; sourceTree = "<group>"; };
+		8497B59B1F3BFF12004E5005 /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
+		8497B59C1F3BFF12004E5005 /* pull_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_refresh@2x.png"; sourceTree = "<group>"; };
+		8497B59D1F3BFF12004E5005 /* UIScrollView+XYRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XYRefreshView.h"; sourceTree = "<group>"; };
+		8497B59E1F3BFF12004E5005 /* UIScrollView+XYRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XYRefreshView.m"; sourceTree = "<group>"; };
+		8497B59F1F3BFF12004E5005 /* XYPullRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPullRefreshView.h; sourceTree = "<group>"; };
+		8497B5A01F3BFF12004E5005 /* XYPullRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPullRefreshView.m; sourceTree = "<group>"; };
+		8497B5A11F3BFF12004E5005 /* XYPushRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPushRefreshView.h; sourceTree = "<group>"; };
+		8497B5A21F3BFF12004E5005 /* XYPushRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPushRefreshView.m; sourceTree = "<group>"; };
 		84D0F9E91F09D53E0035FF10 /* superSelectPhotoPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superSelectPhotoPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D0F9ED1F09D53E0035FF10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84D0F9EF1F09D53E0035FF10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +129,22 @@
 			path = LCPhotos;
 			sourceTree = "<group>";
 		};
+		8497B59A1F3BFF12004E5005 /* XYPullControl */ = {
+			isa = PBXGroup;
+			children = (
+				8497B59B1F3BFF12004E5005 /* loading@2x.png */,
+				8497B59C1F3BFF12004E5005 /* pull_refresh@2x.png */,
+				8497B59D1F3BFF12004E5005 /* UIScrollView+XYRefreshView.h */,
+				8497B59E1F3BFF12004E5005 /* UIScrollView+XYRefreshView.m */,
+				8497B59F1F3BFF12004E5005 /* XYPullRefreshView.h */,
+				8497B5A01F3BFF12004E5005 /* XYPullRefreshView.m */,
+				8497B5A11F3BFF12004E5005 /* XYPushRefreshView.h */,
+				8497B5A21F3BFF12004E5005 /* XYPushRefreshView.m */,
+			);
+			name = XYPullControl;
+			path = LCPhotos/XYPullControl;
+			sourceTree = "<group>";
+		};
 		84D0F9E01F09D53E0035FF10 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +173,7 @@
 				84D0F9F01F09D53E0035FF10 /* AppDelegate.m */,
 				84D0F9F21F09D53E0035FF10 /* ViewController.h */,
 				84D0F9F31F09D53E0035FF10 /* ViewController.m */,
+				8497B59A1F3BFF12004E5005 /* XYPullControl */,
 				84D0F9F81F09D53E0035FF10 /* Assets.xcassets */,
 				84D0F9FA1F09D53E0035FF10 /* LaunchScreen.storyboard */,
 				84D0F9FD1F09D53E0035FF10 /* Info.plist */,
@@ -298,10 +328,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8497B5A31F3BFF12004E5005 /* loading@2x.png in Resources */,
 				84D5BB011F1760EC0065FEBC /* takePhoto@3x.png in Resources */,
 				84D5BB001F1760EC0065FEBC /* takePhoto@2x.png in Resources */,
 				84D5BAFF1F1760EC0065FEBC /* fanhui@2x.png in Resources */,
 				84D0F9FC1F09D53E0035FF10 /* LaunchScreen.storyboard in Resources */,
+				8497B5A41F3BFF12004E5005 /* pull_refresh@2x.png in Resources */,
 				84D5BB021F1760EC0065FEBC /* 背景图片@2x.jpg in Resources */,
 				84D5BB041F1760EC0065FEBC /* 评价晒单-选取照片_19@2x.png in Resources */,
 				84D0F9F91F09D53E0035FF10 /* Assets.xcassets in Resources */,
@@ -331,10 +363,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84812FF21F15B386009BCE5F /* LCPhotoPickerViewController.m in Sources */,
+				8497B5A71F3BFF12004E5005 /* XYPushRefreshView.m in Sources */,
 				84812FF31F15B386009BCE5F /* LCTakePhotoCell.m in Sources */,
 				84D0F9F41F09D53E0035FF10 /* ViewController.m in Sources */,
 				84812FF01F15B386009BCE5F /* LCPhotoCell.m in Sources */,
 				84812FF11F15B386009BCE5F /* LCPhotoCollectionViewFlowLayout.m in Sources */,
+				8497B5A61F3BFF12004E5005 /* XYPullRefreshView.m in Sources */,
+				8497B5A51F3BFF12004E5005 /* UIScrollView+XYRefreshView.m in Sources */,
 				84D0F9F11F09D53E0035FF10 /* AppDelegate.m in Sources */,
 				84D0F9EE1F09D53E0035FF10 /* main.m in Sources */,
 			);
